@@ -45,9 +45,9 @@ function gifsDisplay(){
             gifs.addClass("gif");
             gifs.attr("data-animate", results[i].images.fixed_height.url);
             var rating = results[i].rating;
-            var p = $("<p>").text("Rating: " + rating);
+            //var p = $("<p>").text("Rating: " + rating);
             gifsDiv.append(gifs);
-            gifsDiv.append(p);
+            //gifsDiv.append(p);
 
             $("#gifsShow").prepend(gifsDiv);
         }
